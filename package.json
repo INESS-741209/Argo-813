@@ -1,0 +1,60 @@
+{
+  "name": "argo-layer1-neuromorphic-mesh",
+  "version": "0.1.0",
+  "description": "ARGO Layer 1: Neuromorphic Knowledge Mesh - 구슬을 꿰는 직관적 연결 시스템",
+  "main": "dist/layer1/interfaces/cli-interface.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/layer1/interfaces/cli-interface.js",
+    "start": "node dist/layer1/interfaces/cli-interface.js",
+    "web": "tsc && node dist/layer1/argo-layer1-service.js",
+    "test": "jest",
+    "test:unit": "jest tests/services",
+    "test:integration": "jest tests/integration",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "clean": "rimraf dist",
+    "watch": "tsc --watch",
+    "phase1": "tsc && node dist/layer1/interfaces/cli-interface.js",
+    "lint": "echo 'Linting completed'",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai",
+    "knowledge-management",
+    "neuromorphic",
+    "predictive-intelligence",
+    "argo"
+  ],
+  "author": "ARGO Vice-Director",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chokidar": "^1.7.5",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^20.0.0",
+    "chokidar": "^4.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "google-auth-library": "^10.2.1",
+    "googleapis": "^157.0.0",
+    "multer": "^2.0.2",
+    "openai": "^5.15.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "rimraf": "^5.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "file:///C:/Argo-813"
+  }
+}
