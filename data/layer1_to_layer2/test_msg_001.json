@@ -1,0 +1,10 @@
+{
+  "id": "test_msg_001",
+  "timestamp": "2025-08-24T01:50:00",
+  "source": "layer1",
+  "target": "layer2",
+  "event_type": "test_message",
+  "data": {
+    "message": "Hello from Layer 1!"
+  }
+}

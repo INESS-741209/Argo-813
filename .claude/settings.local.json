@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gcloud auth application-default set-quota-project:*)",
+      "Bash(*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(curl:*)",
+      "Bash(flutter pub:*)",
+      "Bash(flutter run:*)",
+      "Bash(dart:*)",
+      "Bash(flutter build:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(find:*)",
+      "Bash(gcloud services enable:*)",
+      "Bash(gcloud iam service-accounts create:*)",
+      "Bash(gcloud projects add-iam-policy-binding:*)",
+      "Bash(bq mk:*)",
+      "Bash(gsutil mb:*)",
+      "Bash(gcloud storage buckets create:*)",
+      "Bash(gcloud compute networks create:*)",
+      "Bash(gcloud compute networks subnets create:*)",
+      "Bash(gcloud compute firewall-rules create:*)",
+      "Bash(gcloud compute project-info add-metadata:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run typecheck:*)"
+    ],
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "C:\\ARGO-813",
+      "C:\\c\\flutter\\bin",
+      "C:\\c\\ARGO-813",
+      "C:\\mnt\\c\\ARGO-813"
+    ]
+  }
+}

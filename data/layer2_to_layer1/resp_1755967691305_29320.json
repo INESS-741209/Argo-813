@@ -1,0 +1,12 @@
+{
+  "id": "resp_1755967691305_29320",
+  "timestamp": "2025-08-24T01:48:11.305171",
+  "source": "layer2",
+  "target": "layer1",
+  "event_type": "test_message",
+  "data": {
+    "processed": true,
+    "result": "Processed: Hello from Layer 1!"
+  },
+  "correlation_id": "test_msg_001"
+}
